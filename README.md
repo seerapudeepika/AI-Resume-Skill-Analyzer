@@ -1,33 +1,80 @@
-# ⚡ AI-Based Resume Skill Analyzer
+# 🤖 AI Resume Skill Analyzer
 
-An intelligent, dual-purpose web application built with Streamlit and Machine Learning to bridge the gap between job seekers and recruiters.
+An AI-based Resume Skill Analyzer that helps freshers understand their
+resume readiness, identify skills, find suitable job roles, and discover
+areas for improvement.
 
-## 🚀 Features
+## 🚀 Live Demo
 
-### 🎓 For Freshers & Job Seekers
-* **Resume Readyness Audit:** Upload your PDF resume to instantly evaluate its keyword strength.
-* **Smart Skill Extraction:** Automatically detects your technical skills (Programming, Web, Data Science, DevOps, etc.) from your resume text.
-* **Role Recommendation:** Finds the best matching job role based on your current skill set.
-* **Skill Gap & Upskilling:** Identifies missing skills required for your target role and suggests specific learning resources (Coursera, Udemy, freeCodeCamp).
+https://ai-resume-skill-analyzer-kvq...streamlit.app
 
-### 🏢 For Recruiters & Hiring Managers
-* **Candidate Screening:** Upload candidate resumes to evaluate them against specific software engineering and technical roles.
-* **Rule-Based & AI Scoring:** Computes both direct rule-based skill alignment and TF-IDF semantic similarity scores.
-* **Hiring Recommendations:** Provides clear indicators on whether to advance a candidate to the next interview round.
+## ✨ Features
 
----
+- 📄 Upload resume in PDF format
+- 🛠️ Extract skills from resume
+- 🎯 Find the best matching job role
+- 📊 Calculate resume readiness score
+- 🔍 Identify missing skills
+- 📚 Provide learning recommendations
+- 👩‍💻 Designed especially for freshers and job seekers
 
-## 🛠️ Tech Stack
-* **Python**
-* **Streamlit** (Frontend UI)
-* **PyPDF2** (PDF Text Extraction)
-* **Scikit-Learn** (TF-IDF Vectorizer & Cosine Similarity)
+## 🧑‍💻 Technologies Used
 
----
+- Python
+- Streamlit
+- PyPDF2
+- Scikit-learn
+- NLP
+- TF-IDF
+- Cosine Similarity
 
-## 📦 Installation & Setup
+## 📌 Supported Skills
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/your-username/AI-Resume-Skill-Analyzer.git](https://github.com/your-username/AI-Resume-Skill-Analyzer.git)
-   cd AI-Resume-Skill-Analyzer
+The application can identify skills such as:
+
+Python, Java, JavaScript, HTML, CSS, Machine Learning,
+Deep Learning, SQL, Git, GitHub, MongoDB, Flask, Django,
+TensorFlow, NLP, Computer Vision and more.
+
+## ⚙️ How to Run Locally
+
+### 1. Clone the repository
+
+git clone YOUR_GITHUB_REPOSITORY_URL
+
+### 2. Open the project folder
+
+cd ai-resume-skill-analyzer
+
+### 3. Install required libraries
+
+pip install -r requirements.txt
+
+### 4. Run the application
+
+streamlit run app.py
+
+## 📊 How It Works
+
+Resume PDF
+   ↓
+Text Extraction
+   ↓
+Skill Detection
+   ↓
+Job Role Matching
+   ↓
+TF-IDF Similarity Analysis
+   ↓
+Readiness Score & Recommendations
+
+## 🎯 Project Goal
+
+The goal of this project is to help freshers analyze their resumes
+and understand which technical skills they need to improve for
+software-related career opportunities.
+
+## 👩‍💻 Author
+
+Deepika
+B.Tech CSE (AI & ML)
