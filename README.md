@@ -6,7 +6,7 @@ areas for improvement.
 
 ## 🚀 Live Demo
 
-https://ai-resume-skill-analyzer-kvq...streamlit.app
+https://ai-resume-skill-analyzer-kvqtihydxn4kpwuhm5pg2j.streamlit.app/
 
 ## ✨ Features
 
