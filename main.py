@@ -49,14 +49,19 @@ def extract_pdf_text(file):
 
 def clean_text(text):
     text = text.lower()
-    text = re.sub(r'[^a-z\s]', '', text)
-    return text
+    text = re.sub(r'[^a-z0-9+#.\s]', ' ', text)
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()
 
 def extract_skills(text):
     found = []
+
     for skill in skills_db:
-        if skill in text:
+        pattern = r'(?<![a-z0-9])' + re.escape(skill) + r'(?![a-z0-9])'
+
+        if re.search(pattern, text):
             found.append(skill)
+
     return found
 
 def recommend_job(found_skills):
