@@ -54,6 +54,12 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
+## 📸 Project Screenshot
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ae7774bd-8d98-45e5-800a-c3603ff893de" />
+
+
 ## 📊 How It Works
 
 Resume PDF
