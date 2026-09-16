@@ -40,11 +40,11 @@ TensorFlow, NLP, Computer Vision and more.
 
 ### 1. Clone the repository
 
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/seerapudeepika/AI-Resume-Skill-Analyzer.git
 
 ### 2. Open the project folder
 
-cd ai-resume-skill-analyzer
+cd AI-Resume-Skill-Analyzer
 
 ### 3. Install required libraries
 
